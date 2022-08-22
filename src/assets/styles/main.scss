@@ -187,21 +187,24 @@ body {
     }
 
     &-button {
-      background: $red-100;
+      align-items: center;
+      background: $white;
       border-radius: 50%;
       border: 0;
       bottom: 1rem;
       box-shadow: none;
-      color: $white;
+      color: $red-100;
       cursor: pointer;
       display: inline-flex;
       font-size: 1.5rem;
       font-weight: 600;
+      height: 4.6rem;
+      justify-content: center;
       line-height: 2.4rem;
-      padding: 1.1rem 1.6rem;
       position: absolute;
       right: 1rem;
       transition: background 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      width: 4.6rem;
 
       &:hover,
       &:focus {
