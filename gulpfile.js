@@ -41,7 +41,7 @@ async function jsTask(){
 async function browsersyncServe(cb){
   browsersync.init({
     server: {
-      baseDir: '.'
+      baseDir: './public'
     }
   });
   cb();
@@ -54,7 +54,7 @@ async function browsersyncReload(cb){
 
 // Watch Task
 async function watchTask(){
-  watch('*.html', browsersyncReload);
+  watch('./public/*.html', browsersyncReload);
   watch(['./src/assets/styles/**/*.scss', './src/assets/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
 }
 

@@ -2,10 +2,10 @@
   "name": "api-rest-landing",
   "version": "1.0.0",
   "description": "",
-  "main": "./view/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "gulp watch",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
