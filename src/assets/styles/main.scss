@@ -214,8 +214,8 @@ body {
       }
 
       &:disabled {
-        background: $gray-100;
-        color: $red-100;
+        background: $gray-200;
+        color: $gray-300;
         cursor: default;
       }
 
@@ -250,8 +250,8 @@ body {
       }
 
       &:disabled {
-        background: $gray-100;
-        color: $red-100;
+        background: $gray-200;
+        color: $gray-300;
         cursor: default;
       }
     }
@@ -371,8 +371,8 @@ body {
       }
 
       &:disabled {
-        background: $gray-100;
-        color: $red-100;
+        background: $gray-200;
+        color: $gray-300;
         cursor: default;
       }
     }
