@@ -1,0 +1,32 @@
+{
+  "name": "api-rest-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./view/index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerDesignDev/api-rest-landing.git"
+  },
+  "author": "roger fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogerDesignDev/api-rest-landing/issues"
+  },
+  "homepage": "https://github.com/rogerDesignDev/api-rest-landing#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.13",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.5"
+  }
+}
