@@ -294,11 +294,15 @@ body {
       margin-right: auto;
       position: relative;
       width: 16rem;
+      margin-bottom: 1.4rem;
+      @media (min-width: $screen-md) {
+        margin-bottom: 0;
+      }
     }
 
     &-label {
-      background-color: $gray-200;
       align-items: center;
+      background-color: $gray-200;
       border-radius: .8rem;
       box-shadow: 0 0 2rem rgb(59 64 78 / 10%);
       cursor: pointer;
@@ -308,8 +312,8 @@ body {
       justify-content: center;
       line-height: 2.8rem;
       padding: 1.2rem;
-      width: 16rem;
       transition: background 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      width: 16rem;
       @media (min-width: $screen-md) {
         &:hover {
           background-color: $gray-300;
